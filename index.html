@@ -148,6 +148,12 @@
         .footer ul{
             list-style: none;
         }
+        .vertical .project-link {
+            color: white;
+        }
+        .vertical .project-link:active {
+            color: blue;
+        }
 
     </style>
 </head>
@@ -175,9 +181,14 @@
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download resume</button>
-                    <button class="btn">Visit Github</button>
+                    <a href="IT_2101920130051_Brishika.pdf" class="btn" download>
+                        <button class="btn">Download resume</button>
+                    </a>
+                    <a href="https://github.com/brishikachaudhary" class="btn" target="_blank">
+                        <button class="btn">Visit Github</button>
+                    </a>
                 </div>
+                
 
             </div>
             <div class="rightsection">
@@ -189,26 +200,59 @@
             <span id="text-color"> what i have done so far</span>
             <h1>Projects</h1>
             <div class = "box">
-                <div class ="vertical">
+                <!-- <div class ="vertical">
                     <img  class="image2" src="developer.png" alt="nothing">
-                    <div class="title1"> portfolio website </div>
-                    <div class="descript"> i have made a portfolio website for showcasing my skills and experiences</div>
+                    <div class="title1"> T-shirt customizer </div>
+                    <div class="descript"> • Developed a feature-rich platform allowing users to upload images and dynamically change the color of t-shirts in real-time.</div>
                 </div>
                 <div class ="vertical">
                     <img  class="image2" src="developer.png" alt="nothing">
-                    <div class="title1">Note making website</div>
-                    <div class="descript"> i have made a note making website  using html, css and  basic javascript  </div>
+                    <div class="title1">food delivery website</div>
+                    <div class="descript"> • Designed and developed a robust food website utilizing React and JavaScript, featuring seamless integration of a
+                        user-friendly cart system for exploring and purchasing diverse food items  </div>
                 </div>
                 <div class ="vertical">
                     <img  class="image2" src="developer.png" alt="nothing">
-                    <div class="title1"> 3-d showcase </div>
-                    <div class="descript"> i have made 3-D showcase website using html, css, javascript and react </div>
+                    <div class="title1"> News  website </div>
+                    <div class="descript"> •Utilized JavaScript skills to spearhead the development of a dynamic news API project.
+                        ,Leveraged API integration techniques to gather and process real-time news data, enhancing user experience and fostering
+                        engagement with up-to-date information. </div>
                 </div>
                 <div class ="vertical">
                     <img  class="image2" src="developer.png" alt="nothing">
-                    <div class="title1"> E-commerce website (clothing)</div>
-                    <div class="descript"> I am still working on this project and learning differnet technologies</div>
+                    <div class="title1"> note making website</div>
+                    <div class="descript"> I have made a simple note making website ,where you can note down any thing and store it for further use</div>
+                </div> -->
+                <div class="vertical">
+                    <a href="https://customizer-mu.vercel.app/" class="project-link" >
+                        <img class="image2" src="developer.png" alt="nothing">
+                        <div class="title1">T-shirt customizer</div>
+                        <div class="descript">• Developed a feature-rich platform allowing users to upload images and dynamically change the color of t-shirts in real-time.</div>
+                    </a>
                 </div>
+                <div class="vertical">
+                    <a href="https://restaurant-website-tau-jade.vercel.app/" class="project-link" >
+                        <img class="image2" src="developer.png" alt="nothing" >
+                        <div class="title1">Food delivery website</div>
+                        <div class="descript">• Designed and developed a robust food website utilizing React and JavaScript, featuring seamless integration of a user-friendly cart system for exploring and purchasing diverse food items.</div>
+                    </a>
+                </div>
+                <div class="vertical">
+                    <a href="https://canva-umber.vercel.app/" class="project-link" >
+                        <img class="image2" src="developer.png" alt="nothing">
+                        <div class="title1">2-D canva page </div>
+                        <div class="descript">• I have made a 3-D page using canva using html,cascading style sheet and JavaScript,which is super fun and attractive to use.</div>
+                    </a>
+                </div>
+                <div class="vertical">
+                    <a href="https://news-api-two-sooty.vercel.app/" class="project-link" >
+                        <img class="image2" src="developer.png" alt="nothing">
+                        <div class="title1">News website</div>
+                        <div class="descript">• Utilized JavaScript skills to spearhead the development of a dynamic news API project. Leveraged API integration techniques to gather and process real-time news data, enhancing user experience and fostering engagement with up-to-date information.</div>
+                    </a>
+                </div>
+                
+                
                 
                  </div>
 
@@ -232,7 +276,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['web developer.', 'competative programmer.','web desiginer.'],
+          strings: ['web developer.', 'full stack developer.','web desiginer.'],
           typeSpeed: 50,
         });
       </script>
